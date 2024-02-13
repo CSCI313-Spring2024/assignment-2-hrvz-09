@@ -1,0 +1,86 @@
+/* Changes the background color of the Navbar to NDSU green */
+.navbar {
+  background-color: #005643;
+}
+
+/* Changes the text colors of nav-link elements to white */
+.nav-link {
+  color: white;
+}
+
+/* Styling for the main header */
+.main-header {
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 2px 2px 5px red;
+  font-size: 80px;
+
+  /* Uses 'Georgia' font if available, defaults to 'Times New Roman' */
+  font-family: Georgia, "Times New Roman";
+}
+
+/* Styling for sub headers */
+.sub-header {
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px 5px red;
+  font-size: 50px;
+}
+
+/* NDSU green for font color of h3 elements */
+h3 {
+  color: #005643;
+}
+
+/* Extra padding for top of the second and third sub-headers */
+.sub-header-1 {
+  text-align: center;
+  padding-top: 100px;
+  text-shadow: 2px 2px 5px red;
+  font-size: 50px;
+}
+
+/* Background color set to beige */
+body {
+  background-color: beige;
+}
+
+/* paragraph and list elements bold and in NDSU green */
+p,
+li {
+  font-weight: bold;
+  color: #005643;
+}
+
+/* Formatting of CS picture */
+#cs-pic {
+  width: 350px;
+  height: 250px;
+  padding-top: 15px;
+}
+
+/* Border for columns using NDSU yellow as a color */
+.col {
+  border: solid;
+  border-color: #005643;
+  background-color: #ffc82e;
+}
+
+/* Algignment of list elements to left side */
+.list1 {
+  text-align: left;
+}
+
+/* Italics for text after the table */
+#post-table {
+  font-style: italic;
+}
+
+/* Formatting for the carousel */
+.carousel {
+  align-items: center;
+  width: 900px;
+  max-height: 700px;
+  margin: auto;
+  padding-top: 15px;
+}
